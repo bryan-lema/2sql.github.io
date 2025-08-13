@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Final Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <script src="script.js" defer></script>
 </head>
 
-<body>
-  Hello world
-  <script src="script.js"></script>
+
+
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Top bar with logo and arrow -->
+  <header class="container-fluid px-4 py-3 d-flex justify-content-between align-items-center">
+    <span class="fw-bold">2SQL</span>
+
+    <!-- Arrow link to About Page -->
+    <a href="about.html" class="text-decoration-none text-body" aria-label="Go to About page">
+      <span class="d-inline-block fs-4">↗</span>
+    </a>
+  </header>
+
+  <!-- Location text -->
+  <div class="newYork">
+    <p id= "newYorkText"> New York, NY</p>
+  </div>
+
+  <!-- Image placeholder -->
+  <div class="container my-4">
+    <img id="mainImage"
+         src="https://ctrinvests.com/wp-content/uploads/2022/01/office.jpg" 
+         alt="New York City Skyline" 
+         class="img-fluid rounded" 
+         style="width: 100%; height: 200px; object-fit: cover; transition: filter .25s ease;">
+  </div>
+
+
+  <!-- Text that's gibberish -->
+  <div class="container">
+    <p class="text-muted" style="font-size: 0.9rem;">
+      Our mission at 2SQL is to be the most profitable investment company in the world. If you're searching for crème de la crème, 2SQL is it.
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container mt-auto mb-4 d-flex justify-content-between align-items-center">
+    <p id="locationText" class="mb-0">See Our Locations</p>
+    <span class="text-muted">───</span>
+  </footer>
 </body>
+
+
+
 
 </html>

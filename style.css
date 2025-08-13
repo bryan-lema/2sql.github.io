@@ -2,3 +2,55 @@ html {
   height: 100%;
   width: 100%;
 }
+/* this is for the index section (go until line 45) */
+.fw-bold {
+  display: flex;
+  justify-content: start;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-muted-1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.text-muted-2 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings;
+    "wdth" 100;
+}
+
+.locations {
+  display: flex;
+  justify-content: between;
+
+}
+
+#locationText {
+  display: flex;
+  text-align: left;
+  font-family: "Noto Serif", serif;\
+}
+
+/* changing the place of the New York location near the top right */
+.newYork {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+
+/* this is for the about section, page II */
+.menu {
+  font-family: "Noto Serif", serif;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}

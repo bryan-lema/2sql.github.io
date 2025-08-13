@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wireframe II</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <!-- The css is here as <style> -->
+  <style>
+    :root { --line-w: 54px; --line-h: 2px; }
+
+    /* Vertical menu links */
+    .menu a {
+      display: block;
+      position: relative;
+      font-size: 1.25rem;        /* ~20px */
+      padding: .75rem 4rem .75rem 0;  /* room on right for the line */
+      color: #000;
+      text-decoration: none;
+    }
+    .menu a::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: var(--line-w);
+      height: var(--line-h);
+      background: #000;
+      transform: translateY(-50%);
+      opacity: .85;
+    }
+    .menu a:hover { opacity: .7; }
+
+    /* Spacing between the two groups of links */
+    .section-gap { margin-top: 2.5rem; }
+
+    /* Bottom-right login link */
+    .login-link {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      color: #000;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+  </style> 
+</head>
+
+
+
+<body class="bg-white">
+    <nav class="menu">
+      <a style="margin-left: 5px" href="index.html">Our Mission</a>
+      <a style="margin-left: 5px" href="#">Some Extras</a>
+      <a style="margin-left: 5px" href="#">Careers and Internships</a>
+
+      <div class="section-gap"></div>
+
+      <a style="margin-left: 5px" href="#">Contact Us</a>
+      <a style="margin-left: 5px" href="#">Our Members</a>
+    </nav>
+
+    <!-- Bottom-right -->
+    <a href="#" class="login-link">Member Login</a>
+  </div>
+</body>
+
+
+
+</html>
